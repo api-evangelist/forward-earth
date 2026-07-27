@@ -1,7 +1,30 @@
 aid: forward-earth
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/forward-earth.png
 name: Forward Earth
-description: Forward Earth is a company surfaced as a portfolio company of speedinvest and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Forward Earth is a Berlin-based climate technology company building
+  AI-automated carbon management software that helps businesses measure, track,
+  and reduce their carbon footprint in line with environmental regulation. Its
+  platform covers Corporate Carbon Footprint (CCF) accounting certified to the
+  GHG Protocol, Product Carbon Footprint (PCF) calculation, and Carbon Border
+  Adjustment Mechanism (CBAM) compliance reporting, with an emphasis on
+  automating data collection and emissions calculation to save time and cost.
+  Forward Earth also offers a white-label / partner offering that embeds its
+  carbon management capabilities into GRC, ESG, supply-chain, and consultancy
+  software, exposing environmental and partner-specific APIs plus single sign-on
+  through a sandbox that partners access on request. The company is backed by
+  Speedinvest and is moving toward agent-native product carbon footprinting.
 url: https://raw.githubusercontent.com/api-evangelist/forward-earth/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +34,39 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Carbon Management
+- Sustainability
+- ESG
+- Carbon Accounting
+- Climate Tech
+- CBAM
+- CSRD
+- GHG Protocol
+- Emissions
 apis: []
+common:
+- type: DomainSecurity
+  url: security/forward-earth-domain-security.yml
+- type: Website
+  url: https://forward-earth.com
+- type: Blog
+  url: https://forward-earth.com/resources
+- type: Support
+  url: https://forward-earth.com/contact
+- type: TermsOfService
+  url: https://forward-earth.com/terms-and-conditions
+- type: PrivacyPolicy
+  url: https://forward-earth.com/privacy-policy
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
